@@ -1,0 +1,202 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-color: #212121;
+  --secondary-color: #2196f3;
+  --third-color: #ffffff;
+  --fourth-color: #757575;
+  --fifth-color: #2f303a;
+  --sixth-color: rgba(255, 255, 255, 0.6);
+  --seventh-color: #f5f4fa;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+span {
+  color: var(--secondary-color);
+}
+/* ==== HEADER ==== */
+/* =====WEBSTUDIO===== */
+.navigation-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 2.583;
+  letter-spacing: 0.03 em;
+  color: var(--main-color);
+}
+.navigation-logo:hover,
+.navigation-logo:focus,
+.navigation-logo:active {
+  color: var(--secondary-color);
+}
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.333;
+  letter-spacing: 0.02 em;
+  color: var(--main-color);
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.navigation-list-link:active {
+  color: var(--secondary-color);
+}
+
+.mailto {
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.333;
+  letter-spacing: 0.02 em;
+}
+.mailto:hover,
+.mailto:focus,
+.mailto:active {
+  color: var(--secondary-color);
+}
+.telephone {
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.333;
+  letter-spacing: 0.02 em;
+  color: var(--main-color);
+}
+.telephone:hover,
+.telephone:focus,
+.telephone:active {
+  color: var(--fourth-color);
+}
+/* ==== END OF HEADER ==== */
+
+/* ==== MAIN ==== */
+.main-title {
+  background: var(--fifth-color);
+}
+.title {
+  font-weight: 900;
+  font-size: 44 px;
+  line-height: 5;
+  text-align: center;
+  letter-spacing: 0.06 em;
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+.modal-button {
+  font-weight: 700;
+  font-size: 16 px;
+  line-height: 2.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06 em;
+  background: var(--secondary-color);
+}
+.modal-button:focus,
+.modal-button:hover,
+.modal-button:active {
+  color: var(--third-color);
+}
+
+.paragraph-title {
+  font-weight: 700;
+  font-size: 14 px;
+  line-height: 1.333;
+  letter-spacing: 0.03 em;
+  text-transform: uppercase;
+}
+.paragraph-content {
+  font-size: 14 px;
+  line-height: 2;
+  letter-spacing: 0.03 em;
+  color: var(--fourth-color);
+}
+/* ==== about us ====*/
+.div-title {
+  font-weight: 700;
+  font-size: 36 px;
+  line-height: 3.5;
+  text-align: center;
+  letter-spacing: 0.03 em;
+}
+/* ==== end about us ====*/
+/* ==== workers ==== */
+.worker-name {
+  font-weight: 500;
+  font-size: 16 px;
+  line-height: 1.583;
+  text-align: center;
+  letter-spacing: 0.03 em;
+}
+.worker-position {
+  font-size: 16 px;
+  line-height: 1.583;
+  text-align: center;
+  letter-spacing: 0.03 em;
+  color: var(--fourth-color);
+}
+/* ==== end workers ==== */
+/* ==== end MAIN ==== */
+/* ==== FOOTER ==== */
+.footer {
+  background: var(--fifth-color);
+}
+.footer .navigation-logo {
+  color: var(--third-color);
+}
+.address {
+  font-style: normal;
+  font-size: 14 px;
+  line-height: 2;
+  letter-spacing: 0.03 em;
+  color: var(--third-color);
+}
+.footer-mail {
+  font-size: 14 px;
+  line-height: 2;
+  letter-spacing: 0.03 em;
+  color: var(--sixth-color);
+}
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--secondary-color);
+}
+.footer-phone {
+  font-size: 14 px;
+  line-height: 2;
+  letter-spacing: 0.03 em;
+  color: var(--sixth-color);
+}
+.footer-phone:hover,
+.footer-phone:focus {
+  color: var(--secondary-color);
+}
+
+.figcaption-main {
+  font-weight: 700;
+  font-size: 18 px;
+  line-height: 3;
+  letter-spacing: 0.06 em;
+}
+.figcaption-description {
+  font-size: 16 px;
+  line-height: 2.5;
+  letter-spacing: 0.03 em;
+  color: var(--fourth-color);
+}
+/* ==== end FOOTER ==== */
+/* === buttons ==== */
+.menu-button {
+  font-weight: 500;
+  font-size: 16 px;
+  line-height: 2.166;
+  text-align: center;
+  letter-spacing: 0.03 em;
+  background-color: var(--seventh-color);
+}
+.menu-button:hover,
+.menu-button:focus,
+.menu-button:active {
+  background-color: var(--secondary-color);
+  color: var(--third-color);
+}
