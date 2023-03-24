@@ -187,6 +187,7 @@ span {
 /* ==== end FOOTER ==== */
 /* === buttons ==== */
 .menu-button {
+  transition: all 0.2s ease;
   font-weight: 500;
   font-size: 16 px;
   line-height: 2.166;
