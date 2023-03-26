@@ -21,24 +21,24 @@ span {
 .navigation-logo {
   font-family: var(--secondary-font);
   font-weight: 700;
-  font-size: 26 px;
+  font-size: 26px;
   line-height: 2.583;
   letter-spacing: 0.03 em;
   color: var(--main-color);
 }
-.navigation-logo:hover,
+
 .navigation-logo:focus,
 .navigation-logo:active {
   color: var(--secondary-color);
 }
 .navigation-list-link {
   font-weight: 500;
-  font-size: 14 px;
+  font-size: 14px;
   line-height: 1.333;
   letter-spacing: 0.02 em;
   color: var(--main-color);
 }
-.navigation-list-link:hover,
+
 .navigation-list-link:focus,
 .navigation-list-link:active {
   color: var(--secondary-color);
@@ -50,10 +50,10 @@ span {
   line-height: 1.333;
   letter-spacing: 0.02 em;
 }
-.mailto:hover,
+
 .mailto:focus,
 .mailto:active {
-  color: var(--secondary-color);
+  color: var(--main-color);
 }
 .telephone {
   font-weight: 500;
@@ -62,7 +62,7 @@ span {
   letter-spacing: 0.02 em;
   color: var(--main-color);
 }
-.telephone:hover,
+
 .telephone:focus,
 .telephone:active {
   color: var(--fourth-color);
@@ -100,7 +100,7 @@ span {
 
 .paragraph-title {
   font-weight: 700;
-  font-size: 14 px;
+  font-size: 14px;
   line-height: 1.333;
   letter-spacing: 0.03 em;
   text-transform: uppercase;
@@ -157,7 +157,7 @@ span {
   letter-spacing: 0.03 em;
   color: var(--sixth-color);
 }
-.footer-mail:hover,
+
 .footer-mail:focus {
   color: var(--secondary-color);
 }
@@ -167,7 +167,7 @@ span {
   letter-spacing: 0.03 em;
   color: var(--sixth-color);
 }
-.footer-phone:hover,
+
 .footer-phone:focus {
   color: var(--secondary-color);
 }
@@ -195,9 +195,18 @@ span {
   letter-spacing: 0.03 em;
   background-color: var(--seventh-color);
 }
-.menu-button:hover,
+
 .menu-button:focus,
 .menu-button:active {
   background-color: var(--secondary-color);
   color: var(--third-color);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.mailto {
+  color: var(--main-color);
 }
