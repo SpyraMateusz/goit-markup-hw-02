@@ -23,7 +23,7 @@ span {
   font-weight: 700;
   font-size: 26px;
   line-height: 2.583;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
   color: var(--main-color);
 }
 
@@ -35,7 +35,7 @@ span {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.333;
-  letter-spacing: 0.02 em;
+  letter-spacing: 0.02em;
   color: var(--main-color);
 }
 
@@ -46,9 +46,9 @@ span {
 
 .mailto {
   font-weight: 500;
-  font-size: 14 px;
+  font-size: 14px;
   line-height: 1.333;
-  letter-spacing: 0.02 em;
+  letter-spacing: 0.02em;
 }
 
 .mailto:focus,
@@ -57,9 +57,9 @@ span {
 }
 .telephone {
   font-weight: 500;
-  font-size: 14 px;
+  font-size: 14px;
   line-height: 1.333;
-  letter-spacing: 0.02 em;
+  letter-spacing: 0.02em;
   color: var(--main-color);
 }
 
@@ -75,25 +75,24 @@ span {
 }
 .title {
   font-weight: 900;
-  font-size: 44 px;
+  font-size: 44px;
   line-height: 5;
   text-align: center;
-  letter-spacing: 0.06 em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-color);
 }
 .modal-button {
   font-weight: 700;
-  font-size: 16 px;
+  font-size: 16px;
   line-height: 2.5;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06 em;
+  letter-spacing: 0.06em;
   background: var(--secondary-color);
 }
 .modal-button:focus,
-.modal-button:hover,
 .modal-button:active {
   color: var(--third-color);
 }
@@ -102,37 +101,37 @@ span {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.333;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .paragraph-content {
-  font-size: 14 px;
+  font-size: 14px;
   line-height: 2;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
   color: var(--fourth-color);
 }
 /* ==== about us ====*/
 .div-title {
   font-weight: 700;
-  font-size: 36 px;
+  font-size: 36px;
   line-height: 3.5;
   text-align: center;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
 }
 /* ==== end about us ====*/
 /* ==== workers ==== */
 .worker-name {
   font-weight: 500;
-  font-size: 16 px;
+  font-size: 16px;
   line-height: 1.583;
   text-align: center;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
 }
 .worker-position {
-  font-size: 16 px;
+  font-size: 16px;
   line-height: 1.583;
   text-align: center;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
   color: var(--fourth-color);
 }
 /* ==== end workers ==== */
@@ -146,15 +145,15 @@ span {
 }
 .address {
   font-style: normal;
-  font-size: 14 px;
+  font-size: 14px;
   line-height: 2;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
   color: var(--third-color);
 }
 .footer-mail {
-  font-size: 14 px;
+  font-size: 14px;
   line-height: 2;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
   color: var(--sixth-color);
 }
 
@@ -162,9 +161,9 @@ span {
   color: var(--secondary-color);
 }
 .footer-phone {
-  font-size: 14 px;
+  font-size: 14px;
   line-height: 2;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
   color: var(--sixth-color);
 }
 
@@ -174,14 +173,14 @@ span {
 
 .figcaption-main {
   font-weight: 700;
-  font-size: 18 px;
+  font-size: 18px;
   line-height: 3;
-  letter-spacing: 0.06 em;
+  letter-spacing: 0.06em;
 }
 .figcaption-description {
-  font-size: 16 px;
+  font-size: 16px;
   line-height: 2.5;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
   color: var(--fourth-color);
 }
 /* ==== end FOOTER ==== */
@@ -189,13 +188,13 @@ span {
 .menu-button {
   transition: all 0.2s ease;
   font-weight: 500;
-  font-size: 16 px;
+  font-size: 16px;
   line-height: 2.166;
   text-align: center;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
   background-color: var(--seventh-color);
 }
-
+.menu-button:hover,
 .menu-button:focus,
 .menu-button:active {
   background-color: var(--secondary-color);
